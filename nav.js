@@ -1,8 +1,8 @@
 document.write('<div>\
  <nav>\
-  <a href="index.html">Koti</a>\
-  <a href="linkit.html">Linkkilista</a>\
-  <a href="https://scratch.mit.edu">Scratch</a>\
+  <a href="index.html">Koti</a><br/>\
+  <a href="linkit.html">Linkkilista</a><br/>\
+  <a href="https://scratch.mit.edu">Scratch</a><br/>\
 </nav>\
-    </div>\'
+    </div>\
 );
