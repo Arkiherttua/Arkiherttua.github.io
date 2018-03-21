@@ -20,6 +20,9 @@
 <!-- Latest compiled and minified JavaScript -->
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 <!--#include virtual="nav.html"-->
+  
+  <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+  
   <div class="container">
 <!--<div>
 <ul class="nav nav-pills">
@@ -30,12 +33,24 @@
 </div>-->
     
     
-    <nav id="nav"></nav>
+    <!--<nav id="nav"></nav>-->
+    
+    <!--Navigation bar-->
+<div id="nav-placeholder">
+
+</div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("nav.html");
+});
+</script>
+<!--end of Navigation bar-->
   
   <div>
 <h1>Hoi Maailma!</h1>
 
-  <p>Tämä on testailua varten luotu sivu. Muuten helppoa hommaa, mutta navigointi ei ole ihan helppo koota.</p>
+  <p>Tämä on testailua varten luotu sivu. Muuten helppoa hommaa, mutta navigointi ei olekaan ihan helppo koota...............</p>
   </div>
   </div>
   <script src="nav.js"></script>
