@@ -4,5 +4,5 @@ document.write('<div>\
   <a href="linkit.html">Linkkilista</a></li>\
   <a href="https://scratch.mit.edu">Scratch</a></li>\
 </nav>\
-    </div>\
+    </div>\'
 );
