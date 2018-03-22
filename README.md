@@ -64,7 +64,9 @@ Tehdään navigaatiopalkki, joka on helppo laittaa näkymään joka sivulla. Teh
 1. Luo navigaatio.html niminen tiedosto
 
 2. Tee sinne lista linkkejä: yksinkertaisimmillaan peräkkäin vaan
- &lt;a href="http://sivunosoite.com"> Linkin teksti</a><br>
+ ```html
+<a href="http://sivunosoite.com"> Linkin teksti</a><br>
+```
 
 3. Mene index.html tai muuhun tiedostoon jonne haluat navigaatiopalkin. Sinne pitää laittaa
 
@@ -93,9 +95,9 @@ Eli tärkeimmät komennot
 
 **&lt;title&gt;&lt;/title&gt;** Sivun selaimen yläpalkissa näkyvä otsikko
 
-**&lt;head&gt;&lt;/head&gt;**
+**<head></head>** Sivun metatiedot tulevat tänne, esim. title!
 
-**&lt;body&gt;&lt;/body&gt;** Tänne sivun näkyvä sisältö
+**<title></title>** Sivun selaimen yläpalkissa näkyvä otsikko
 
 **&lt;div&gt;&lt;/div&gt;** eli division eli osuus: tietty yhteen kuuluva osa sivua, esim. otsikko ja sitä seuraava tekstikappale
 
