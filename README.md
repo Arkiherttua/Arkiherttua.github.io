@@ -41,14 +41,14 @@ Repositoriosi sivulla on paljon kaikenlaista, mutta olennaisimpia ovat:
 
 ```html
 <!DOCTYPE html>
-&lt;html&gt;
- &lt;title&gt;
-  Tähän sivun otsikko (yläpalkissa näkyvä)
- &lt;/title&gt;
- &lt;body&gt;
-  Tänne sivun sisältö, teksti, kuvat, linkit jne.
- &lt;/body&gt;
-&lt;/html&gt;
+<html>
+	<head>
+		<title>Tähän sivun otsikko (yläpalkissa näkyvä)</title>
+	</head>
+	<body>
+		Tänne sivun sisältö, teksti, kuvat, linkit jne.
+	</body>
+</html>
 ```
 
 Tallenna tiedosto painamalla nappia &quot;commit changes&quot; eli &#39;tee muutokset&#39; alareunassa. Voit kirjoittaa päivitysviestin, jos haluat, mutta se ei ole pakollista näin yksinkertaisessa projektissa.
@@ -68,23 +68,22 @@ Tehdään navigaatiopalkki, joka on helppo laittaa näkymään joka sivulla. Teh
 
 3. Mene index.html tai muuhun tiedostoon jonne haluat navigaatiopalkin. Sinne pitää laittaa
 
-- linkki jQuery-kirjastoon: &lt;script src=&quot;https://code.jquery.com/jquery-1.10.2.js" </script>;
+- linkki jQuery-kirjastoon: 
+```html 
+<script src="https://code.jquery.com/jquery-1.10.2.js" </script>;
+```
 
 - Koodinpätkä, jolla saadaan navigaatio näkymään:
 
-&lt;div id=&quot;navigaationsijainti&quot;&gt;&lt;/div&gt; &lt;!-- Tämän rivin sijainti määrää paikan, johon navigaatio ilmestyy--&gt;
-
-&lt;!-- script-tagin sisällä on varsinainen koodi, joka lataa navigaatio.html tiedoston sisällön tähän tiedostoon--&gt;
-
-&lt;script&gt;
-
- $(function(){
-
- $(&quot;#navigaationsijainti&quot;).load(&quot;navigaatio.html&quot;);
-
- });
-
-&lt;/script&gt;
+```html
+<div id="navigaationsijainti"></div> <!-- Tämän rivin sijainti määrää paikan, johon navigaatio ilmestyy-->
+<!-- script-tagin sisällä on varsinainen koodi, joka lataa navigaatio.html tiedoston sisällön tähän tiedostoon-->
+<script> 
+	$(function(){
+	$("#navigaationsijainti").load("navigaatio.html");
+	});
+</script>
+```
 
 # HTML-cheatsheet
 
