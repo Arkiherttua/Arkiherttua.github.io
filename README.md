@@ -39,7 +39,7 @@ Repositoriosi sivulla on paljon kaikenlaista, mutta olennaisimpia ovat:
 
 1. Luodaan index eli etusivu: luo uusi tiedosto, ja nimeä se index.html. Kirjoita sinne html-sivun minimirunko:
 
-'''html
+```html
 <!DOCTYPE html>
 &lt;html&gt;
  &lt;title&gt;
@@ -49,7 +49,7 @@ Repositoriosi sivulla on paljon kaikenlaista, mutta olennaisimpia ovat:
   Tänne sivun sisältö, teksti, kuvat, linkit jne.
  &lt;/body&gt;
 &lt;/html&gt;
-'''
+```
 
 Tallenna tiedosto painamalla nappia &quot;commit changes&quot; eli &#39;tee muutokset&#39; alareunassa. Voit kirjoittaa päivitysviestin, jos haluat, mutta se ei ole pakollista näin yksinkertaisessa projektissa.
 
@@ -64,11 +64,11 @@ Tehdään navigaatiopalkki, joka on helppo laittaa näkymään joka sivulla. Teh
 1. Luo navigaatio.html niminen tiedosto
 
 2. Tee sinne lista linkkejä: yksinkertaisimmillaan peräkkäin vaan
- &lt;a href="http://sivunosoite.com">Linkin teksti</a><br>
+ &lt;a href="http://sivunosoite.com"> Linkin teksti</a><br>
 
 3. Mene index.html tai muuhun tiedostoon jonne haluat navigaatiopalkin. Sinne pitää laittaa
 
-- linkki jQuery-kirjastoon: &lt;script src=&quot;https://code.jquery.com/jquery-1.10.2.js&quot;&gt;&lt;/script&gt;
+- linkki jQuery-kirjastoon: &lt;script src=&quot;https://code.jquery.com/jquery-1.10.2.js" </script>;
 
 - Koodinpätkä, jolla saadaan navigaatio näkymään:
 
@@ -93,25 +93,37 @@ Eli tärkeimmät komennot
 **&lt;html&gt;&lt;/html&gt;** tähän väliin tulee KAIKKI html-tiedoston sisältö, sitä edeltää vain &lt;!Doctype html&gt;-tagi
 
 **&lt;title&gt;&lt;/title&gt;** Sivun selaimen yläpalkissa näkyvä otsikko
+
 **&lt;head&gt;&lt;/head&gt;**
+
 **&lt;body&gt;&lt;/body&gt;** Tänne sivun näkyvä sisältö
 
 **&lt;div&gt;&lt;/div&gt;** eli division eli osuus: tietty yhteen kuuluva osa sivua, esim. otsikko ja sitä seuraava tekstikappale
+
 **&lt;h1&gt;&lt;/h1&gt;** Pääotsikko (myös h2, h3, h4, h5 olemassa, isompi numero on aina pienempi otsikko)
+
 **&lt;p&gt;&lt;/p&gt;** eli paragraph eli (teksti)kappale
+
 **&lt;br&gt;** rivinvaihto
-**&lt;a href=&quot;http://sivunosoite.com&quot;&gt;Linkin teksti&lt;/a&gt;** Linkki
+
+**&lt;a href=&quot;http://sivunosoite.com"> Linkin teksti&lt;/a&gt;** Linkki 
+
 **&lt;img src=&quot;kuvannimi.gif&quot; alt=&quot;teksti, jos kuvaa ei näykään&quot;&gt;** Kuva
+
 **&lt;!-- kommentti, täällä sisällä oleva teksti ei näy itse sivulla--&gt;** (paitsi jos katsoo sivun koodia, älä siis kirjoita salaisuuksia!)
 
 **Jotta saat jQueryllä toteutun navigaatiopalkin toimimaan, tarvitsen linkin jQuery-kirjastoon:**
+
 &lt;script src=&quot; [https://code.jquery.com/jquery-1.10.2.js](https://code.jquery.com/jquery-1.10.2.js)&quot;&gt;&lt;/script&gt;
 
 **Jos haluat tehdä sivun ulkonäön muotoilut Bootstrap-kirjastolla, tarvitset nämä linkit siihen:**
+
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css&quot; integrity=&quot;sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u&quot; crossorigin=&quot;anonymous&quot;&gt;
-&lt;!-- Optional theme →
+&lt;!-- Optional theme -->
+
 &lt;link rel=&quot;stylesheet&quot; href=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css&quot; integrity=&quot;sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp&quot; crossorigin=&quot;anonymous&quot;&gt;
-&lt;!-- Latest compiled and minified JavaScript →
+&lt;!-- Latest compiled and minified JavaScript -->
+
 &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&quot; integrity=&quot;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
 
 
