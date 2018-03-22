@@ -1,11 +1,4 @@
-# Arkiherttua.github.io
-
-Testailua varten luotu nettisivu.
-
-
-
-
-# Nettisivut Githubiin
+# Ohje, miten teet yksinkertaiset nettisivut Githubiin
 
 Tällä ohjeella saat luotua omat nettisivut Github-sivuston palvelimelle. Ne löytyvät osoitteesta omakäyttäjätunnus.github.io :)
 
