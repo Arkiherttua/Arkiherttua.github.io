@@ -12,7 +12,7 @@ Tällä ohjeella saat luotua omat nettisivut Github-sivuston palvelimelle. Ne l�
 
 4. Oikealta löytyy vihreä &quot;new repository&quot;-nappi, josta saat luotua uuden repositorion (&quot;säilytyspaikan&quot;, kansion koodausprojektillesi)
 
-5. Nimeä repositorio täsmälleen käyttäjänimesi mukaiseksi (niin Github tietää luoda repositoriota vastaavan sivuston).
+5. **Nimeä repositorio täsmälleen: käyttäjänimesi.github.io** (niin Github tietää luoda repositoriota vastaavan sivuston).
 
 Voit myös antaa sille Githubissa näkyvän kuvauksen (description). Näkyvyyden on oltava julkinen (public), sillä yksityisistä repositorioista pitää maksaa. Kaikki internetissä voivat siis katsoa koodiasi, nettisivun lisäksi. Ruksaa &quot;Initialize this repository with a README&quot;, jotta saat repositoriolle esittelytiedoston (readme). Viimeisiin kahteen nappiin gitignoresta tai lisenssistä ei tarvitse koskea.
 
