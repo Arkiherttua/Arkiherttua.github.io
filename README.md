@@ -120,4 +120,12 @@ Eli tärkeimmät komennot
 
 &lt;script src=&quot;https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js&quot; integrity=&quot;sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa&quot; crossorigin=&quot;anonymous&quot;&gt;&lt;/script&gt;
 
+** Yleisön pyynnöstä, näin saat tietyn käyttäjän uusimman videon sivullesi:**
+
+```html
+<iframe width="300" height="200" src="http://www.youtube.com/embed?max-results=1&controls=0&showinfo=0&rel=0&listType=user_uploads&list=YOUR_USERNAME_HERE" frameborder="0" allowfullscreen></iframe> 
+```
+
+
+
 
